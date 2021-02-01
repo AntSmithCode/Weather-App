@@ -1,4 +1,4 @@
-const geoHttps = `https://api.opencagedata.com/geocode/v1/json?q=LAT+LNG&key${auth}`;
+const geoHttps = `https://api.opencagedata.com/geocode/v1/json?q=LAT+LNG&key=${auth}`;
 const weatherHttps =
   "https://www.metaweather.com/api/location/search/?lattlong=(latt),(long)";
 const zipWeatherElement = document.querySelector(".container");
